@@ -1,0 +1,20 @@
+.three-columns-block .column .text-block img,
+.top-bar,
+.logo-area form,
+ nav,
+.gallery,
+.bullets {
+	display:none;
+	
+}
+.logo-area{
+	padding: 5px;
+}
+body{
+	font-family:Arial,sans-serif;
+	font-size:14pt;
+	color: black;
+}
+.three-columns-block .column .text-block h3{
+	color:#000;
+}
