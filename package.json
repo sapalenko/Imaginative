@@ -1,0 +1,29 @@
+{
+  "name": "imaginative",
+  "version": "1.0.0",
+  "description": "imaginative project",
+  "main": "index.html",
+  "dependencies": {
+    "global": "^4.3.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapalenko/Imaginative.git"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "a.sapalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapalenko/Imaginative/issues"
+  },
+  "homepage": "https://github.com/sapalenko/Imaginative#readme"
+}
