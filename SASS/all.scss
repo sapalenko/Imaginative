@@ -1,3 +1,5 @@
+$content-width: 960px;
+
 body {
 	background: #ffffff url("../images/bg-body.png") repeat-x 0 0;
 	font-family: Georgia, "Times new Roman", serif;
@@ -5,3 +7,89 @@ body {
 	max-width: percentage(5/7);
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.page-wrapper {
+	max-width: $content-width;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+.top-bar {
+	background: #ffffff;
+	padding: 8px 20px;
+	border-bottom: 1px solid #97455f;
+	height:33px;
+}
+
+.service-links {
+	float: right;
+	margin-top: 9px;
+	font-size: 12px;
+
+	a {
+		color: #97455f;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	li {
+		border-left: 1px solid #97455f;
+		margin-right: 4px;
+		padding-left: 6px;
+	}
+
+	li:first-child {
+		border-left: none;
+	}
+}
+
+.top-bar {
+	.social-icon {
+		border-radius: 50%;
+		width: 32px;
+		height: 32px;
+		background: #d2d2d2;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		transition: background .3s;
+
+		&.linkedin:hover {
+			background: #0e76a8;
+		}
+
+		&.twitter:hover {
+			background: #00acee;
+		}
+
+		&.twitter:hover {
+			background: #00acee;
+		}
+
+		&.newsfeed:hover {
+			background: #ee802f;
+		}
+
+		&.newsfeed:hover {
+			background: #ee802f;
+		}
+
+		&.pinterest:hover {
+			background: #c8232c;
+		}
+	}
+
+	ul li {
+		display: inline;
+		vertical-align: middle;
+		margin: 0 7px 0 0;
+	}
+}
